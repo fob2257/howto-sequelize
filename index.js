@@ -11,6 +11,7 @@ const main = async () => {
             }],
         });
         console.log(JSON.stringify(usuarios));
+        process.exit();
     } catch (error) {
         console.log(error);
     }
